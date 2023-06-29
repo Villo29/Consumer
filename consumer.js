@@ -28,7 +28,7 @@ async function consumeMessages() {
         console.log('Mensaje recibido:', messageContent);
 
         try {
-          const apiUrl = 'http://localhost:4000/video';
+          const apiUrl = 'http://44.207.12.23/video';
           const options = {
             method: 'POST',
             body: JSON.stringify({ Title: messageContent }),
