@@ -1,4 +1,5 @@
 import amqp from 'amqplib';
+                                                  // VILLO29 
 
 const rabbitSettings = {
   protocol: 'amqp',
